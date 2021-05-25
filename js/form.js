@@ -49,7 +49,7 @@ class Form{
             player.updateCount(0);
             game.update(0);
 
-            var playerInfoRef = database .ref("player");
+            var playerInfoRef = database .ref("players");
             playerInfoRef.remove();
             
         });
